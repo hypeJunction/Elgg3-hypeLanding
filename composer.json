@@ -1,0 +1,28 @@
+{
+	"name": "hypejunction/hypelanding",
+	"type": "elgg-plugin",
+	"description": "Landing page editor",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "theme"
+	],
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeLanding"
+	},
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "~1.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
